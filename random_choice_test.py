@@ -1,8 +1,11 @@
 import random,time
+import datetime
+
 
 fruits = ['apple', 'orange', 'banana', 'grape', 'peach']
 count = 1
 while True:
-    print(f"Count# {count} ===>{random.choice(fruits)}")
+    e = datetime.datetime.now()
+    print(f"{e.hour}:{e.minute}:{e.second} count# {count} ===>{random.choice(fruits)}")
     count += 1
     time.sleep(1)
