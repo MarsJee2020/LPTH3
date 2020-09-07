@@ -35,7 +35,9 @@ class Employee(Person):
     def __init__(self, name, salary):
         print(f"Creating Employee object: {name}....")
         ## Explicit call parent class constructor to setup 'name' attribute
-        super(Employee, self).__init__(name)
+        print("Calling parent class(Person) constructor....")
+        #super(Employee, self).__init__(name)
+        super().__init__(name)
         # has-a
         self.salary = salary
 
