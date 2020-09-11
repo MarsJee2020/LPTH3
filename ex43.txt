@@ -1,0 +1,15 @@
+Gothons from Planet Percal #25
+
+a maze of rooms
+escape pod
+adventure type game
+
+This game = { an engine taht wuns a map full of rooms or scenes}
+
+Each room: Will print out its own description when the player enters it.
+           And then tell the engine what room to run next out of the map.
+
+
+gothon 哥頓人
+Death
+Central Corridor: 中央走廊/迴廊
